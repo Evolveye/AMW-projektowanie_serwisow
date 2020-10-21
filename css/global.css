@@ -1,0 +1,22 @@
+.global_header {
+  display: flex;
+  align-items: center;
+}
+.global_header > *:not( .flex-separator ) {
+  flex-basis: 0;
+  margin: 10px;
+}
+.global_header .global_header-avatar {
+  width: 100px;
+}
+.global_header-nav {
+  display: flex;
+}
+.global_header-title {
+  min-width: max-content;
+}
+.global_header-nav-item {
+  flex-wrap: 1;
+  width: max-content;
+  margin: 10px;
+}
