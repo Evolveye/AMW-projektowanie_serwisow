@@ -5,7 +5,7 @@
 
 .letter {
   max-width: 750px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 50px 10px;
   background-image: url( "/img/paper.jpg" );
   color: black;
