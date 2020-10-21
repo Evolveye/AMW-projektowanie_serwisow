@@ -31,7 +31,7 @@
 body,
 body.is-light {
   /* font-family: TitilliumWeb, Lato; */
-  font-family: Lato;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   /* font-family: TitilliumWeb; */
   background-color: var( --background-color );
   color: var( --text-color );
