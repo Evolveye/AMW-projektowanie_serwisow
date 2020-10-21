@@ -1,0 +1,44 @@
+.form {
+  margin: 100px auto;
+  background: white;
+  padding: 100px;
+  color: black;
+}
+
+.form > * {
+  margin: 0 auto;
+}
+.form label {
+  cursor: pointer;
+}
+
+.form-fieldset {
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-colors-wrapper {
+  width: max-content;
+  margin-top: 100px;
+  background-color: red;
+}
+.form-colors-wrapper img {
+  position: relative;
+  width: 250px;
+  z-index: -1;
+}
+.form-button {
+  cursor: pointer;
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.form-button:hover {
+  background: #f0f0f0;
+}
+.form-button:active {
+  background: #e6d8ff;
+}

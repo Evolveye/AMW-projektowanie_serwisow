@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="/css/sanitize.css">
   <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/form.css">
 
   <script async defer src="/js/main.js"></script>
 </head>
@@ -29,7 +30,33 @@
   </header>
 
   <main class="main">
+    <form class="form">
+      <fieldset class="form-fieldset">
+        <h3>Rate this page</h3>
 
+        <label>1 <input type="radio" name="radio" disabled></label>
+        <label>2 <input type="radio" name="radio" disabled></label>
+        <label>3 <input type="radio" name="radio" disabled></label>
+        <label>4 <input type="radio" name="radio" disabled></label>
+        <label>5 <input type="radio" name="radio"></label>
+        <label>6 <input type="radio" name="radio"></label>
+      </fieldset>
+
+      <fieldset class="form-fieldset">
+        <h3>Set your color</h3>
+
+        <label>Red   <input type="checkbox" name="red"></label>
+        <label>Green <input type="checkbox" name="green"></label>
+        <label>Blue  <input type="checkbox" name="blue"></label>
+        <label>Alpha <input type="checkbox" name="alpha"></label>
+      </fieldset>
+
+      <input class="form-button" type="button" onclick="submit" value="submit">
+
+      <div class="form-colors-wrapper">
+        <img src="/img/nothing.png" alt="Nothing">
+      </div>
+    </form>
   </main>
 </body>
 </html>
