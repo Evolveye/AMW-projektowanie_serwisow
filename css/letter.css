@@ -1,4 +1,28 @@
+@font-face {
+  font-family: blackhcry;
+  src: url( "/fonts/BLKCHCRY.TTF" )
+}
+
 .letter {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 50px 10px;
   background-image: url( "/img/paper.jpg" );
   color: black;
+  border-radius: 10px;
+  line-height: 1.5em;
+}
+.letter-data {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+.letter-title {
+  font-size: 20px;
+  width: max-content;
+  margin: 20px auto;
+}
+.letter-content {
+  font-family: blackhcry;
+  text-indent: 20px;
 }
