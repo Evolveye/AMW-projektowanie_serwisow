@@ -1,3 +1,9 @@
+.main {
+  display: flex;
+  align-items: center;
+  min-height: calc( 100vh - 130px );
+}
+
 .global_header {
   display: flex;
   align-items: center;
