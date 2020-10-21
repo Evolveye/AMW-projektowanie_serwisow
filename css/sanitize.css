@@ -166,14 +166,14 @@ p:not( [class] ),
 .h6, h6:not( [class] ) {}
 */
 
-li {
+ul li {
   list-style: none;
 }
-li:not( [class] ) {
+ul li:not( [class] ) {
   position: relative;
   margin-bottom: 1em;
 }
-li:not( [class] )::before {
+ul li:not( [class] )::before {
   content: "¤";
   position: absolute;
   left: -20px;
