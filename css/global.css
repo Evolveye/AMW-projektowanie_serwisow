@@ -6,14 +6,23 @@
   flex-basis: 0;
   margin: 10px;
 }
-.global_header .global_header-avatar {
+.global_header-logo {
+  display: flex;
+  align-items: center;
+  min-width: max-content;
+}
+.global_header-logo:hover .global_header-logo-title {
+  color: var( --blue );
+}
+.global_header-logo-avatar {
   width: 100px;
 }
 .global_header-nav {
   display: flex;
 }
-.global_header-title {
-  min-width: max-content;
+.global_header-logo-title {
+  margin: 0;
+  margin-left: 20px;
 }
 .global_header-nav-item {
   flex-wrap: 1;
