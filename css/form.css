@@ -10,6 +10,7 @@
 }
 .form label {
   cursor: pointer;
+  margin: 10px;
 }
 
 .form-fieldset {
@@ -18,14 +19,22 @@
 }
 
 .form-colors-wrapper {
+  position: relative;
   width: max-content;
   margin-top: 100px;
-  background-color: red;
+}
+.form-colors-curtain {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1;
 }
 .form-colors-wrapper img {
   position: relative;
   width: 250px;
-  z-index: -1;
 }
 .form-button {
   cursor: pointer;
