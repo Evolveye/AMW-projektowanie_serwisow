@@ -13,8 +13,12 @@
  1. **Podstawy**: /lab-1/  
     Folder z prostą stroną internetową.
  2. **Praca z elementami DOM**: (patrz niżej)
- 3. **Obsługa zdarzeń**:
-    [Gry na GameJamy](https://github.com/Evolveye/Game_jams)<br>
+ 3. **Obsługa zdarzeń**:  
+    Szachy RPG [repozytorium](https://github.com/Evolveye/CChess.io/)
+    [gra](https://cactu-cchess.herokuapp.com/)  
+    [Gry na GameJamy](https://github.com/Evolveye/Game_jams)  
+    Jam 2: [Pacman-like](http://antrio.jcom.pl/cactujam/2/main.html)  
+    Jam 5: [Trudna i nieintuicyjna przygodówka](http://antrio.jcom.pl/cactujam/5/)  
     Pierwsze 6 CactuJamów (0-5) wykonałem w `vanilla JS` oraz zwyczajowym HTML oraz CSS.
     Dużo się tam dzieje a modyfikacje DOM najlepiej oddaje **CactuJam 0**.
     To właśnie tam poza elementem canvas na siatce gry pojawiają się różne gify, w UI
@@ -22,10 +26,13 @@
     oraz gdyby ktokolwiek zdołał przejsć tę niesamowicie trudną grę to ujrzałby
     wstrzyknięty w HTML ekran końcowy.<br>
     Jako, ze są to gry "klikacze" to operują głównie na zdarzeniach poruszania i klikania kursorem
-    (niestety nie ogólnie wskaźnikiem)
- 4. **Asynchroniczny JavaScript**:
-    [Bot Discorda](https://github.com/Evolveye/Cactu-discord.js),
-    [Szachy RPG](https://github.com/Evolveye/CChess.io/) (link do gry w opisie repozytorium)<br>
+    (niestety nie ogólnie wskaźnikiem).
+    Dodatkowo do zaprezentowania mam także grę w szachy RPG(?) zbudowaną na protokole websocket --
+    co implikuje pełną asynchroniczność i operowanie na zdarzeniach.
+ 4. **Asynchroniczny JavaScript**:  
+    [Bot Discorda](https://github.com/Evolveye/Cactu-discord.js),  
+    Szachy RPG [repozytorium](https://github.com/Evolveye/CChess.io/)
+    [gra](https://cactu-cchess.herokuapp.com/)  
     Discord do komunikator. Taki serwis nie ma prawa istnieć bez asynchroniczności.
     Wszakże każda wiadomość dociera do użytkowników, cóż, asynchronicznie.
     Całą aplikacja opiera się na zdarzeniach WebSocket. Bot Discorda jest niczym innym
@@ -44,9 +51,9 @@
 
  6. **React -- task 1**: (patrz niżej)
  7. **React -- task 2**: (patrz niżej)
- 8. **React -- task 3**:
-    [Moja strona na GithubPages](https://evolveye.github.io/),
-    [CactuJam 7](https://github.com/Evolveye/Game_jams/tree/master/CactuJam-7)<br>
+ 8. **React -- task 3**:  
+    [Moja strona na GithubPages](https://evolveye.github.io/),  
+    [CactuJam 7](https://github.com/Evolveye/Game_jams/tree/master/CactuJam-7)  
     Moją stronę wykonałem w CMSie [gatsby](https://www.gatsbyjs.com/).
     Jest to narzędzie które obudowuje niejako aplikację Reacta w przyjemniejszą w użyciu formę.
     Na repozytorium strony warto wejść na
