@@ -2,7 +2,7 @@ Jest to (zgodnie z zadaniem) najprostsza strona bez zadnych dodatków.
 Czysty html, css, js. Dodatkowo, jako że skrypty ładowane na stronie nie są modułami,
 to stronę można ot pobrać w zipie i otworzyć -- piękność statyki.
 
-Link do strony: [evolveye.github.io/projektowanie-serwisow-www-21717-185ic/](https://evolveye.github.io/projektowanie-serwisow-www-21717-185ic/)<br>
+Link do strony: [evolveye.github.io/projektowanie-serwisow-www-21717-185ic/](https://evolveye.github.io/projektowanie-serwisow-www-21717-185ic/Lab-1/)  
 Strona może nie być ciemna jak na screenach, lecz biała.
 zwiazane jest to z tym, że zastosowałem media query sprawdzajace motyw kolorystyczny systemu.
 
