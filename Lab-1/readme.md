@@ -8,7 +8,7 @@ zwiazane jest to z tym, że zastosowałem media query sprawdzajace motyw kolorys
 
 
 
-## Treść zadania i wymagane screeny
+# Treść zadania i wymagane screeny
 
 
 

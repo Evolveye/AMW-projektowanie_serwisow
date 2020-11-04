@@ -1,12 +1,8 @@
-# Task 1
-
-
-
 **This is polish only repo!**
 
 
 
-## Moje projekty które uprzednio spełniają wstępne wymogi pozostałych zadań
+# Moje projekty które uprzednio spełniają wstępne wymogi pozostałych zadań
 
 
 
